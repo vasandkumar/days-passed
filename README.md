@@ -32,4 +32,13 @@ console.log('Days passed in the current quarter:', daysInQuarter);
 // Get the number of days passed in the current half year
 const daysInHalfYear = daysPassed.inHalfYear();
 console.log('Days passed in the current half year:', daysInHalfYear);
+
+// Get the number of days passed in the current year
+const daysInYear = daysPassed.inYear();
+console.log('Days passed in the current year:', daysInYear);
+
+// Get the number of days passed since a specified date
+const startDate = new Date('2024-01-01'); // Example start date
+const daysSinceStart = daysPassed.since(startDate);
+console.log('Days passed since start date:', daysSinceStart);
 ```
