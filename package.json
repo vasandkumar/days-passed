@@ -1,7 +1,7 @@
 {
   "name": "days-passed",
   "version": "0.0.1",
-  "description": "With TimeTangle, managing date-related calculations in your JavaScript projects becomes a breeze.",
+  "description": "With Days Passed, managing date-related calculations in your JavaScript projects becomes a breeze.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
