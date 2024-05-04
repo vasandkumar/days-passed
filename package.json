@@ -1,0 +1,29 @@
+{
+  "name": "days-passed",
+  "version": "0.0.1",
+  "description": "With TimeTangle, managing date-related calculations in your JavaScript projects becomes a breeze.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasandkumar/days-passed.git"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "calendar",
+    "days"
+  ],
+  "author": "Vasandkumar <kvasandkumar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasandkumar/days-passed/issues"
+  },
+  "homepage": "https://github.com/vasandkumar/days-passed#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "typescript": "^5.4.5"
+  }
+}
