@@ -8,3 +8,28 @@ You can install Days Passed via npm. Make sure you have Node.js and npm installe
 
 ```bash
 npm install days-passed
+```
+## Usage
+
+```typescript
+import { DaysPassed } from 'days-passed';
+
+// Create an instance of the DaysPassed class
+const daysPassed = new DaysPassed();
+
+// Get the number of days passed in the current month
+const daysInMonth = daysPassed.inMonth();
+console.log('Days passed in the current month:', daysInMonth);
+
+// Get the number of days passed in the current week
+const daysInWeek = daysPassed.inWeek();
+console.log('Days passed in the current week:', daysInWeek);
+
+// Get the number of days passed in the current quarter
+const daysInQuarter = daysPassed.inQuarter();
+console.log('Days passed in the current quarter:', daysInQuarter);
+
+// Get the number of days passed in the current half year
+const daysInHalfYear = daysPassed.inHalfYear();
+console.log('Days passed in the current half year:', daysInHalfYear);
+```
