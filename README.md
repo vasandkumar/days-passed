@@ -1,4 +1,4 @@
-# Days Passed
+# Days Passed [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Days Passed is a lightweight TypeScript module for calculating the number of days passed in various intervals such as months, weeks, quarters, half years, and years. It also provides functionality to calculate the number of days passed since a specified date.
 
@@ -42,3 +42,6 @@ const startDate = new Date('2024-01-01'); // Example start date
 const daysSinceStart = daysPassed.since(startDate);
 console.log('Days passed since start date:', daysSinceStart);
 ```
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
