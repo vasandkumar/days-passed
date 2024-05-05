@@ -1,6 +1,6 @@
 {
   "name": "days-passed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "With Days Passed, managing date-related calculations in your JavaScript projects becomes a breeze.",
   "main": "src/index.js",
   "scripts": {
