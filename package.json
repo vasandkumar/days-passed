@@ -14,7 +14,11 @@
     "date",
     "time",
     "calendar",
-    "days"
+    "days",
+    "passed",
+    "days passed",
+    "days-passed",
+    "elapsed"
   ],
   "author": "Vasandkumar <kvasandkumar@gmail.com>",
   "license": "MIT",
